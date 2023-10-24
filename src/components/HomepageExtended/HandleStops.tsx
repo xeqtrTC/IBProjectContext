@@ -5,11 +5,8 @@ import { AiOutlineClose } from 'react-icons/ai'
 import useGeoGode from "../../hooks/useGeoCode"
 import useContextHook from "../../hooks/useContextHook"
 import Input from "../Input/Input"
+import { uniqueCoordinatesProps } from "../../interfaces/interfaces"
 
-interface uniqueCoordinatesProps {
-    lat: number,
-    lng: number
-}
 
 const HandleStops: FC = () => {
     const { handleGeoCodeStops } = useGeoGode();

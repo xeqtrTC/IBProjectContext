@@ -25,3 +25,13 @@ export interface errorsProps {
     originError: string,
     destinationError: string
 }
+
+export interface uniqueCoordinatesProps {
+    lat: number,
+    lng: number
+}
+
+export interface validStopsProps {
+    destinationLat: number,
+    destinationLng: number
+}
